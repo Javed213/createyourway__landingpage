@@ -51,23 +51,23 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1em;
+  gap: 3em;
 
 }
 
 .nav-links a {
   text-decoration: none;
    color: #505F98;
-  font-size: 0.7em;
+  font-size: 0.8em;
   font-weight: 500;
 }
 
 .purchase-btn {
   background-color: #0b163f;
   color: #fff;
-  padding: 0.1em 1em;
+  padding: 0.2em 1em;
   text-decoration: none;
-  font-size: 0.8em;
+  font-size: 0.9em;
   border-radius: 1px;
 }
 
@@ -85,22 +85,23 @@ body {
 .hero-text h1 {
     font-weight: 700;
     line-height: 2.5rem;
-    font-size: 2.1em;
+    font-size: 2.2em;
     bottom: 20px;
     color: #091133;
     margin-bottom: 20px;
 }
 
 .hero-text p {
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: #505F98;
   line-height: 1.6;
   margin-bottom: 3em;
 }
 
 .hero-buttons .btn {
-    height: 22px;
+    min-height: 25px;
     width: 150px;
+    font-weight: 700;
   display: inline-block;
   margin-right: 15px;
   font-size: 12px;
@@ -109,6 +110,13 @@ body {
   border-radius: 1px;
   transition: 0.3s;
   text-align: center;
+}
+
+.hero-btn{
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .btn.primary {
@@ -147,7 +155,7 @@ body {
 
 
 .feature-left h2 {
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: 500;
   margin-bottom: 1em;
   color: #091133;
@@ -155,7 +163,7 @@ body {
 
 .feature-left p {
     color: #505F98;
-  font-size: 0.8em;
+  font-size: 0.9em;
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -175,7 +183,7 @@ body {
 }
 
 .box h4 {
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-weight: 500;
   margin-bottom: 8px;
   color: #091133;
@@ -229,7 +237,7 @@ body {
 }
 
 .split-text p {
-  font-size: 0.7em;
+  font-size: 0.8em;
   color: #505F98;
   line-height: 1.6;
 }
@@ -249,7 +257,7 @@ body {
 }
 
 .hero .text {
-     font-size: 0.7em;
+     font-size: 0.8em;
      flex: 1;
      min-width: 300px;
      margin-left: 2em;
@@ -270,7 +278,7 @@ body {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 500;
   color: #091133;
   margin-bottom: 0.8em;
@@ -292,6 +300,10 @@ button {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.buy-btn{
+  padding: 7px 35px;
 }
 
 button:hover {
@@ -319,7 +331,7 @@ button:hover {
 }
 
 .pricing-section h2 {   
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 500;
   margin-bottom: 20px;
   color: #091133;
@@ -330,25 +342,25 @@ button:hover {
   margin: 0 auto 40px;
   color:#6F7CB2;
   line-height: 1.6;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .price-box h1 {
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: 500;
   margin: 0;
    color: #222F65;
 }
 
 .tagline {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #4a4a68;
   margin: 0px  0px 20px 0px;
 }
 
 .note {
   color: #888;
-  font-size: 0.6em;
+  font-size: 0.7em;
   margin-bottom: 5px;
 }
 
@@ -360,6 +372,12 @@ button {
   border: none;
   border-radius: 1px;
   cursor: pointer;
+}
+
+.price-btn{
+  margin-top: 0px;
+  padding: 7px 38px;
+  font-weight: 600;
 }
 
 button:hover {
@@ -382,10 +400,10 @@ footer {
 
 
 .copyright{
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 .footer-title {
-  font-size: 1em;
+  font-size: 1.1em;
   color: #2b2b7a;
   margin: 10px;
 }
@@ -393,8 +411,9 @@ footer {
 .footer-button {
   background-color: #091133;
   color: white;
-  padding: 2px 15px;
+  padding: 5px 20px;
   margin: 10px;
+  font-weight: 600;
 }
 .foot-div {
   display: flex;
@@ -411,9 +430,14 @@ footer {
 
 .footer-links {
   margin: 10px 0;
-  font-size: 0.5em;
+  font-size: 0.7em;
   width: 50%;
 
+}
+
+#footer-hr{
+  width: 80%;
+  margin: 0px auto;
 }
 
 .footer-links a {
@@ -479,6 +503,10 @@ footer {
     gap: 7em;
   }
 
+  #phone-girl-image{
+    display: none;
+  }
+
   .split-section {
     flex-direction: column;
     text-align: center;
@@ -489,6 +517,7 @@ footer {
     width: 100%;
     margin-bottom: 1em;
     gap: 2em;
+    margin-top: 0px;
   }
 
   .container {
